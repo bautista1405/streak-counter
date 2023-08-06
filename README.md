@@ -10,8 +10,9 @@ yarn add @bautista1405/streak-counter
 
 npm install @bautista1405/streak-counter
 
-Usage
+## Usage
 
+```
 import {streakCounter} from '@bautista1405/streak-counter'
 
 const today = new Date()
@@ -22,3 +23,4 @@ const streak = streakCounter(localStorage, today)
 // lastLoginDate: "11/11/2021",
 // startDate: "11/11/2021",
 // }
+```
